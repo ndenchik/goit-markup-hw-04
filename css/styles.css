@@ -563,9 +563,7 @@ address{
 
     display: flex; 
     background-color: var(--button-color);
-    padding-top: 40px;
-    padding-left: 32px;
-    padding-right: 32px;
+    padding: 40px 32px;
     
     font-size: 16px;
     line-height: 1.5;
@@ -574,9 +572,12 @@ address{
 
 }
 
-.card-nav:hover .overlay{
+.card-nav:hover .overlay {
+    transform: translateY(0);    
+}
+
+.card-nav:focus .overlay {
     transform: translateY(0);
-    
 }
 
 
