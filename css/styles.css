@@ -98,7 +98,6 @@ p {
     text-transform: uppercase;
     color: var(--logo-color);
     margin-right: 76px
-
 }
 
 .logo-header {
@@ -208,15 +207,16 @@ address{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    max-width: 1440px;    
+    max-width: 1440px;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .hero-flex{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 188px;
-    padding-bottom: 188px; 
+    
 }
 
 .hero-item{
@@ -438,8 +438,13 @@ address{
     color: var(--button-hover-background);
 }
 
-.customers-icon{
-    fill:  currentColor;
+.customers-icon {
+    fill: var(--customers-color);
+}
+
+.customers-icon:hover,
+.customers-icon:focus {
+    fill: var(--button-hover-background);
 }
 
 /* Portfolio*/
@@ -550,8 +555,6 @@ address{
     color: var(--main-color);   
 }
 
-
-
 .overlay{
     position: absolute;
     top: 0;
@@ -603,6 +606,17 @@ footer {
 .footer-item{
     display: inline-block;
     margin-bottom: 16px;
+
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--logo-color);   
+    
 }
 
 .footer-flex{
