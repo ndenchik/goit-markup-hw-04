@@ -442,14 +442,6 @@ address{
     fill: currentColor;
 }
 
-.customers-icon:hover,
-.customers-icon:hover {
-    fill: var(--button-hover-background);
-}
-
-
-
-
 /* Portfolio*/
 
 .portfolio{
