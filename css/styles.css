@@ -439,13 +439,16 @@ address{
 }
 
 .customers-icon {
-    fill: var(--customers-color);
+    fill: currentColor;
 }
 
 .customers-icon:hover,
-.customers-icon:focus {
+.customers-icon:hover {
     fill: var(--button-hover-background);
 }
+
+
+
 
 /* Portfolio*/
 
